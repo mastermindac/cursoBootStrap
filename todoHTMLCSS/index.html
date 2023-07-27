@@ -8,11 +8,36 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="bg-secondary-subtle">
-    <nav class="navbar text-bg-dark">
+    <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="index.html">
-            <img src="./img/logo_web.png" alt="LOGO HTML&CSS"> TODOHTML&CSS
+          <a class="navbar-brand p-0" href="index.html">
+            <img src="./img/logo_web.png" alt="LOGO HTML&CSS"> <span class="align-middle">TODOHTML&CSS</span>
           </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Comenzando</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HTML</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CSS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Modelo de cajas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Semántico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Diseño</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </nav>
     <main class="container mt-3" >
